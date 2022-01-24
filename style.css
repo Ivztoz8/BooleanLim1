@@ -1,0 +1,115 @@
+/* file .css della pagine index.html, esercizio per boolean */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-image: url("source/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;   
+    background-size: cover;
+}
+
+/* Form */
+#form {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .5);
+    width: 60%;
+    height: 90%;
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+/* Logo pagina, titolo e stile */
+.imglogo {
+    display:inline-block;
+    width: 65%;
+    height: auto;
+    text-align:center;
+    padding-left: 40%;
+}
+
+#stylefont {
+    font-size: 150%;
+    word-spacing: 4px;
+    font-weight: bold;
+    color:lime;
+    text-align:center;
+}
+
+#colorband {
+    box-sizing:border-box;
+    background-color: lime;
+    width: auto;
+    height: 10%;
+    text-align:center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.linerp {
+padding-top: 10px;
+padding-bottom: 5px;
+}
+
+/* Bottoni*/
+#buttons {
+    font-size: 65%;
+    display: inline-block;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* Fonts */
+.fontw {
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.fontwb {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+/* Barre chilometriche*/
+#colorband0 {
+    display:inline-block;
+    background-color: sandybrown;
+    border-radius: 5px;
+    width: 40%;
+    height: 20px;
+    text-align:center;
+    padding: 5px;
+}
+
+#colorband1 {
+    display:inline-block;
+    background-color: limegreen;
+    border-radius: 5px;
+    width: 60%;
+    height: 20px;
+    text-align:center;
+    padding: 5px;
+}
+
+#colorband2 {
+    display:inline-block;
+    background-color: firebrick;
+    border-radius: 5px;
+    width: 20%;
+    height: 20px;
+    text-align:center;
+    padding: 5px;
+}
